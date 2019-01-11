@@ -1,8 +1,5 @@
 class Player:
 
-    # Class Attribute
-    #species = 'mammal'
-    
     # Initializer / Instance Attributes
     def __init__(self, name, position, number):
         self.name = name
@@ -14,10 +11,10 @@ class Player:
         return "{} plays as {} with t-shirt number {}".format(self.name, self.position, self.number)
 
 
-# Instantiate the Dog object
+# Instantiate the Person object
 
 kike = Player("Enrique", "Deffender", 10)
 
-# call our instance methods
+# calls instance methods
 
 print(kike.description())
